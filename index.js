@@ -85,16 +85,16 @@ document.addEventListener("DOMContentLoaded", () => {
 
 
   const icons = {
-    0: "/assets/images/icon-sunny.webp",        // Clear
-    1: "/assets/images/icon-partly-cloudy.webp",
-    2: "/assets/images/icon-partly-cloudy.webp",
-    3: "/assets/images/icon-overcast.webp",
-    45: "/assets/images/icon-fog.webp",
-    48: "/assets/images/icon-fog.webp",
-    51: "/assets/images/icon-drizzle.webp",
-    61: "/assets/images/icon-rain.webp",
-    71: "/assets/images/icon-snow.webp",
-    95: "/assets/images/icon-storm.webp"
+    0: "./assets/images/icon-sunny.webp",        // Clear
+    1: "./assets/images/icon-partly-cloudy.webp",
+    2: "./assets/images/icon-partly-cloudy.webp",
+    3: "./assets/images/icon-overcast.webp",
+    45: "./assets/images/icon-fog.webp",
+    48: "./assets/images/icon-fog.webp",
+    51: "./assets/images/icon-drizzle.webp",
+    61: "./assets/images/icon-rain.webp",
+    71: "./assets/images/icon-snow.webp",
+    95: "./assets/images/icon-storm.webp"
   };
 // function to get day name to use it in dropmenu
 function getDayName(s){
@@ -141,17 +141,18 @@ dayHoures.innerHTML=''
     }))
     .filter((t) => t.time.startsWith(selectedDay))
     .slice(0, 10);
+
   const icons = {
-    0: "/assets/images/icon-sunny.webp",        // Clear
-    1: "/assets/images/icon-partly-cloudy.webp",
-    2: "/assets/images/icon-partly-cloudy.webp",
-    3: "/assets/images/icon-overcast.webp",
-    45: "/assets/images/icon-fog.webp",
-    48: "/assets/images/icon-fog.webp",
-    51: "/assets/images/icon-drizzle.webp",
-    61: "/assets/images/icon-rain.webp",
-    71: "/assets/images/icon-snow.webp",
-    95: "/assets/images/icon-storm.webp"
+    0: "./assets/images/icon-sunny.webp",        // Clear
+    1: "./assets/images/icon-partly-cloudy.webp",
+    2: "./assets/images/icon-partly-cloudy.webp",
+    3: "./assets/images/icon-overcast.webp",
+    45: "./assets/images/icon-fog.webp",
+    48: "./assets/images/icon-fog.webp",
+    51: "./assets/images/icon-drizzle.webp",
+    61: "./assets/images/icon-rain.webp",
+    71: "./assets/images/icon-snow.webp",
+    95: "./assets/images/icon-storm.webp"
   };
     //create div foreach houre
 
